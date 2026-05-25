@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "title": "Razer BlackWidow V4 Pro",
+        "price": 12499,
+        "image": "razer_blackwidow_v4_pro.png",
+        "category": "Клавіатури",
+        "description": "Преміальна механічна ігрова клавіатура з RGB-підсвічуванням та швидкими перемикачами Razer Green Switches. Має програмовані макроклавіші, м'яку підставку для зап'ясть і надзвичайно міцний алюмінієвий корпус."
+    },
+    {
+        "id": 2,
+        "title": "Logitech G Pro X Superlight 2",
+        "price": 6899,
+        "image": "logitech_g_pro_x_superlight_2.png",
+        "category": "Мишки",
+        "description": "Надлегка бездротова ігрова мишка для кіберспорту з високоточним сенсором HERO 2 та мінімальною затримкою."
+    },
+    {
+        "id": 3,
+        "title": "SteelSeries Arctis Nova Pro",
+        "price": 13999,
+        "image": "steelseries_arctis_nova_pro.png",
+        "category": "Навушники",
+        "description": "Ігрова гарнітура з об'ємним звучанням, активним шумозаглушенням та професійним мікрофоном."
+    },
+    {
+        "id": 4,
+        "title": "ASUS ROG Swift PG27AQDM",
+        "price": 42999,
+        "image": "asus_rog_swift_pg27aqdm.png",
+        "category": "Монітори",
+        "description": "OLED-монітор 240 Гц з блискавичним часом відгуку та підтримкою NVIDIA G-Sync."
+    },
+    {
+        "id": 5,
+        "title": "HyperX Pulsefire Haste 2",
+        "price": 3499,
+        "image": "hyperx_pulsefire_haste_2.png",
+        "category": "Мишки",
+        "description": "Легка кіберспортивна мишка з точним сенсором та плавним ковзанням."
+    },
+    {
+        "id": 6,
+        "title": "Secretlab Titan Evo",
+        "price": 21999,
+        "image": "secretlab_titan_evo.png",
+        "category": "Ігрові крісла",
+        "description": "Ергономічне крісло преміумкласу для комфортних ігрових сесій."
+    },
+    {
+        "id": 7,
+        "title": "Elgato Stream Deck MK.2",
+        "price": 7499,
+        "image": "elgato_stream_deck_mk2.png",
+        "category": "Стрімінг",
+        "description": "Панель керування для стрімерів з програмованими LCD-кнопками."
+    },
+    {
+        "id": 8,
+        "title": "Sony INZONE Buds",
+        "price": 8999,
+        "image": "sony_inzone_buds.png",
+        "category": "Навушники",
+        "description": "Бездротові ігрові навушники з низькою затримкою та просторовим звуком."
+    },
+    {
+        "id": 9,
+        "title": "Cyberpunk 2077 Ultimate Edition",
+        "price": 2499,
+        "image": "cyberpunk_2077_ultimate_edition.png",
+        "category": "Відеоігри",
+        "description": "Футуристична RPG у відкритому світі з захопливим сюжетом, динамічними боями та неймовірною графікою."
+    },
+    {
+        "id": 10,
+        "title": "EA Sports FC 26",
+        "price": 2899,
+        "image": "ea_sports_fc_26.png",
+        "category": "Відеоігри",
+        "description": "Новітній футбольний симулятор з оновленими командами, реалістичною фізикою та онлайн-режимами."
+    },
+    {
+        "id": 11,
+        "title": "Call of Duty: Black Ops 6",
+        "price": 3199,
+        "image": "call_of_duty_black_ops_6.png",
+        "category": "Відеоігри",
+        "description": "Динамічний шутер від першої особи з масштабним мультиплеєром та захопливою сюжетною кампанією."
+    },
+    {
+        "id": 12,
+        "title": "Minecraft Deluxe Edition",
+        "price": 1599,
+        "image": "minecraft_deluxe_edition.png",
+        "category": "Відеоігри",
+        "description": "Популярна пісочниця для будівництва, виживання та гри з друзями у безмежному кубічному світі."
+    },
+    {
+        "id": 13,
+        "title": "Grand Theft Auto V",
+        "price": 1199,
+        "image": "gta_v.png",
+        "category": "Відеоігри",
+        "description": "Легендарний екшен у відкритому світі з величезним містом, сюжетною кампанією та онлайн-режимом GTA Online."
+    },
+    {
+        "id": 14,
+        "title": "Valorant Champions Pack",
+        "price": 2199,
+        "image": "valorant_champions_pack.png",
+        "category": "Відеоігри",
+        "description": "Набір косметичних предметів для популярного тактичного шутера Valorant."
+    },
+    {
+        "id": 15,
+        "title": "The Witcher 3 Complete Edition",
+        "price": 999,
+        "image": "the_witcher_3_complete_edition.png",
+        "category": "Відеоігри",
+        "description": "Культова RPG з величезним відкритим світом, глибоким сюжетом та всіма доповненнями."
+    },
+    {
+        "id": 16,
+        "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "price": 2499,
+        "image": "stalker_2_heart_of_chornobyl.png",
+        "category": "Відеоігри",
+        "description": "Атмосферний український шутер з відкритим світом, події якого розгортаються у небезпечній Зоні відчуження. Гравців чекають аномалії, мутанти, виживання, нелінійний сюжет та напружені перестрілки у постапокаліптичному світі."
+    }
+]
