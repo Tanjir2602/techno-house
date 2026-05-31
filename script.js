@@ -180,10 +180,16 @@ function addToCart(productId) {
     } else {
         cart.push({ ...product, quantity: 1 }); // Додаємо новий товар до кошика
     }
-    saveJsonCookie('cart', cart, 3600 * 24 * 7); // Зберігаємо кошик у Cookie на 1 тижден
+    saveJsonCookie('cart', cart, 3600 * 24 * 7); // Зберігаємо кошик у Cookie на 1 тиждень
+    displayCart(); // Оновлюємо відображення кошика
 }
 
-
+// Видалення товару з кошика
+function removeFromCart(productId) {
+    cart = cart.filter(item => item.id !== productId);
+    saveJsonCookie('cart', cart, 3600 * 24 * 7);
+    displayCart();
+}
 // Завантаження кошика з Cookie
 function loadCart() {
     const savedCart = getJsonCookie('cart');
@@ -216,12 +222,17 @@ function displayCart() {
               <p class="card-text text-muted mb-1">Кількість: ${product.quantity}</p>
               <p class="card-text text-primary fw-bold mb-0">Ціна: ${product.price} грн</p>
           </div>
+          <button onclick="removeFromCart(${product.id})" class="btn btn-outline-danger btn-sm">
+              <i class="bi bi-trash"></i>
+          </button>
         </div>
       </div>
     `;
     });
     document.querySelector('#totalPrice').textContent = `${total} грн`; // Виводимо загальну суму
-
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    const countBadge = document.querySelector('#cartItemsCount');
+    if (countBadge) countBadge.textContent = totalItems;
 }
 
 
